@@ -14,3 +14,6 @@ This project is a responsive landing page built as part of the UI Developer sele
 
 ## GitHub Repo
 https://github.com/minalshinde20/Nova_website
+
+## live website :
+https://nova-website-coral.vercel.app/
