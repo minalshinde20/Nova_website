@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:Arial,sans-serif;
+background:#F8FAFC;
+margin:0;
+padding:0;
+overflow-x:hidden;
+}
+
+*{
+box-sizing:border-box;
+}
+
+
+/* stats css */
+
+@keyframes slider{
+
+0%{
+transform:translateX(0%);
+}
+
+25%{
+transform:translateX(0%);
+}
+
+35%{
+transform:translateX(-100%);
+}
+
+60%{
+transform:translateX(-100%);
+}
+
+70%{
+transform:translateX(-200%);
+}
+
+90%{
+transform:translateX(-200%);
+}
+
+100%{
+transform:translateX(-300%);
+}
+
+}
+
+.animate-slider{
+
+width:400%;
+display:flex;
+
+animation:slider 15s infinite ease-in-out;
+
+}
+
+.animate-slider:hover{
+
+animation-play-state:paused;
+
+}
+
+/* about section */
+
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+/* Testimonials */
+@keyframes fadeIn{
+
+from{
+opacity:0;
+transform:translateY(40px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
